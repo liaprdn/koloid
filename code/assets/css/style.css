@@ -1,0 +1,79 @@
+/*
+Aulia Pradina
+1IA26
+50421237
+*/
+
+html, body {
+    font-family: 'Helvetica Neue', 'sans-serif';
+    height: 100%;
+    width: 100%; 
+}
+
+.bg-box {
+    background: url(../img/koloid-background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.bold-1 {
+    color: black;
+    font-size: 16pt;
+    font-weight: 500;
+    letter-spacing: -1pt;
+}
+
+.btn-primary {
+    background-color: #1F82A5;
+    border: none;
+    font-weight: 500;
+    border-radius: 8pt;
+}
+
+.content-bg-box {
+    padding-top: 10rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.bg-color {
+    background-color: #D7F5ED;
+}
+
+.icon-size {
+    margin-top: 30px;
+    height: 80px;
+}
+
+.title-big {
+    padding-top: 45px;
+    font-weight: 550;
+    color: #1F82A5;
+    font-size: 25pt;
+    letter-spacing: -1pt;
+}
+
+.list-group-item {
+    border-color: #1F82A5;
+    color:#534D4D;
+}
+
+.table-bordered {
+    border: #1F82A5; 
+    color: #534D4D;
+}
+
+table {
+    background-color: #FFFFFF;
+}
+
+th{
+    text-align: center;
+}
+
+.accordion-body {
+    color: #534D4D;
+}

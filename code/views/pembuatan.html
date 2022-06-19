@@ -1,0 +1,450 @@
+<!-- Aulia Pradina, 1IA26, 50421237 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- CSS Bootstrap -->
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <title>Cara Pembuatan Koloid</title>
+    </head>
+    <body>
+        <!-- Background Color -->
+        <div class="bg-color">
+            <!-- Cara Pembuatan Koloid-->
+            <div class="container">
+                <div class="row row-cols-auto">
+                    <img
+                        class="col icon-size"
+                        src="../assets/img/icon/colloid (3).png"
+                    />
+                    <div class="col title-big mt-3">Cara Pembuatan Koloid</div>
+                </div>
+            </div>
+            <!-- 4 Cara Pembuatan Koloid dalam bentuk Accordion -->
+            <!-- Cara Pertama: Dispersi -->
+            <div class="container">
+                <div class="row row-cols-auto">
+                    <img
+                        class="col icon-size mt-sm-4"
+                        src="../assets/img/icon/beaker.png"
+                        style="padding-top: 10px"
+                    />
+                    <button
+                        type="button"
+                        class="btn btn-primary mt-lg-5"
+                        style="
+                            width: 150px;
+                            height: 50px;
+                            border-radius: 15pt;
+                            margin-left: 10px;
+                            font-size: 15pt;
+                        "
+                        data-bs-toggle="popover"
+                        data-bs-content="Pembuatan Koloid dengan cara memperhalus / memperkecil partikel suspensi menjadi partikel berukuran koloid"
+                    >
+                        Dispersi
+                    </button>
+                </div>
+            </div>
+            <!-- Section Dispersi 1 - 2 -->
+            <div class="container" style="margin-top: 30px">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="accordion" id="dispersiParent1">
+                            <div class="accordion-item">
+                                <h2
+                                    class="accordion-header accordion-title"
+                                    id="dispersi1"
+                                >
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDispersi1"
+                                        aria-controls="collapseDispersi1"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Cara Mekanik (Dispersi Langsung)
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseDispersi1"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="dispersi1"
+                                    data-bs-parent="#dispersiParent1"
+                                >
+                                    <div class="accordion-body">
+                                        Dilakukan menggunakan penggilingan /
+                                        penggerusan partikel suspensi sampai
+                                        diperoleh tingkat kehalusan tertentu,
+                                        yang kemudian diaduk dengan medium
+                                        pendispersi.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b> Karbon dihaluskan dengan
+                                        penggiling koloid agar menghasilkan
+                                        tinta
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="dispersiParent2">
+                                <h2 class="accordion-header" id="dispersi2">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDispersi2"
+                                        aria-controls="collapseDispersi2"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Homogenisasi
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseDispersi2"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="dispersi2"
+                                    data-bs-parent="#dispersiParent2"
+                                >
+                                    <div class="accordion-body">
+                                        Dilakukan menggunakan mesin Homogenisasi
+                                        sampai berukuran koloid. Jika partikel
+                                        sudah sesuai ukuran koloid, selanjutnya
+                                        akan didispersikan ke dalam medium
+                                        pendispersi.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b> Emulsi obat di pabrik
+                                        obat yang menggunakan mesin Homogenisasi
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section Dispersi 3 - 4 -->
+                    <div class="col">
+                        <div class="accordion" id="dispersiParent3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="dispersi3">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDispersi3"
+                                        aria-controls="collapseDispersi3"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Peptisasi
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseDispersi3"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="dispersi3"
+                                    data-bs-parent="#dispersiParent3"
+                                >
+                                    <div class="accordion-body">
+                                        Dengan memecah partikel-partikel besar /
+                                        endapan menjadi koloid dan tambahan ion
+                                        sejenis, sehingga partikel endapan
+                                        mengalami pemecahan oleh zat kimia.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b> Agar-agar dipeptisasi
+                                        oleh air
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="dispersiParent4">
+                                <h2 class="accordion-header" id="dispersi4">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDispersi4"
+                                        aria-controls="collapseDispersi4"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Busur Bredig
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseDispersi4"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="dispersi4"
+                                    data-bs-parent="#dispersiParent4"
+                                >
+                                    <div class="accordion-body">
+                                        Dengan mencelupkan 2 kawat logam yang
+                                        dialiri arus listrik ke dalam air, logam
+                                        tersebut akan mengalami kondensasi
+                                        sehingga menjadi partikel koloid.
+                                        <br />
+                                        <br />
+                                        Digunakan untuk membuat sol-sol logam
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cara Kedua: Kondensasi -->
+            <div class="container">
+                <div class="row row-cols-auto">
+                    <img
+                        class="col icon-size mt-sm-4"
+                        src="../assets/img/icon/beaker (1).png"
+                        style="padding-top: 10px"
+                    />
+                    <button
+                        type="button"
+                        class="btn btn-primary mt-lg-5"
+                        style="
+                            width: 150px;
+                            height: 50px;
+                            border-radius: 15pt;
+                            margin-left: 10px;
+                            font-size: 15pt;
+                        "
+                        data-bs-toggle="popover"
+                        data-bs-content="Pembuatan Koloid dengan cara menggumpalkan partikel larutan menjadi
+                        partikel berukuran koloid. Dapat dilakukan secara Fisika dan Kimia"
+                    >
+                        Kondensasi
+                    </button>
+                </div>
+            </div>
+            <!-- Section Kondensasi 1 - 2 -->
+            <div class="container" style="margin-top: 40px">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="accordion" id="kondensasiParent1">
+                            <div class="accordion-item">
+                                <h2
+                                    class="accordion-header accordion-title"
+                                    id="kondensasi1"
+                                >
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseKondensasi1"
+                                        aria-controls="collapseKondensasi1"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Reaksi Hidrolisis
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseKondensasi1"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="kondensasi1"
+                                    data-bs-parent="#kondensasiParent1"
+                                >
+                                    <div class="accordion-body">
+                                        Dilakukan dengan cara mencampurkan suatu
+                                        zat dengan air. Umumnya digunakan untuk
+                                        membuat koloid-koloid basa dari suatu
+                                        garam yang dihidrolisis.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b>
+                                        Pembuatan sol Fe(OH)<sub>3</sub> dari
+                                        hidrolisis FeCI<sub>3</sub>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="kondensasiParent2">
+                                <h2 class="accordion-header" id="kondensasi2">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseKondensasi2"
+                                        aria-controls="collapseKondensasi2"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Reaksi Pergeseran / Pertukaran Ion
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseKondensasi2"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="kondensasi2"
+                                    data-bs-parent="#kondensasiParent2"
+                                >
+                                    <div class="accordion-body">
+                                        Umumnya dilakukan untuk membuat koloid
+                                        dari zat-zat yang sukar larut (berbentuk
+                                        endapan) yang dihasilkan pada reaksi
+                                        kimia.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b> Pembuatan sol
+                                        As<sub>2</sub>S<sub>3</sub> dengan
+                                        mengalirkan gas H<sub>2</sub>S ke dalam
+                                        larutan As<sub>2</sub>O<sub>3</sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section Kondensasi 3 - 4 -->
+                    <div class="col">
+                        <div class="accordion" id="kondensasiParent3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="kondensasi3">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseKondensasi3"
+                                        aria-controls="collapseKondensasi3"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Reaksi Redoks
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseKondensasi3"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="kondensasi3"
+                                    data-bs-parent="#kondensasiParent3"
+                                >
+                                    <div class="accordion-body">
+                                        Reaksi yang disertai perubahan bilangan
+                                        oksidasi, dan hasil koloid yang terjadi
+                                        merupakan hasil oksidasi atau reduksi.
+                                        <br />
+                                        <br />
+                                        <b>Contoh:</b> Pembuatan sol belerang
+                                        dari reaksi antara Hidrogen Sulfida
+                                        (H<sub>2</sub>S) dengan belerang
+                                        dioksida (SO<sub>2</sub>)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="kondensasiParent4">
+                                <h2 class="accordion-header" id="kondensasi4">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseKondensasi4"
+                                        aria-controls="collapseKondensasi4"
+                                        style="
+                                            font-weight: bold;
+                                            color: #534d4d;
+                                        "
+                                    >
+                                        Reaksi Penggantian Pelarut
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseKondensasi4"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="kondensasi4"
+                                    data-bs-parent="#kondensasiParent4"
+                                >
+                                    <div class="accordion-body">
+                                        Dilakukan untuk membuat sol belerang
+                                        dimana belerang dilarutkan ke dalam
+                                        etanol sampai jenuh, lalu larutan
+                                        tersebut dimasukkan kedalam air sedikit
+                                        demi sedikit hingga menggumpal, dan
+                                        dipisahkan dengan dialisis.
+                                        <br />
+                                        <br />
+                                        Contoh lainnya adalah pembuatan gel
+                                        kalsium asetat yang ditambahkan alkohol
+                                        96%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation Button -->
+            <div class="container mt-5">
+                <!-- ke halaman Sifat-Sifat & Manfaat Koloid -->
+                <a
+                    class="btn btn-primary"
+                    href="../views/sifat-manfaat.html"
+                    style="margin-right: 10px"
+                    role="button"
+                >
+                    < Sifat-Sifat & Manfaat Koloid
+                </a>
+            </div>
+            <!-- Kembali ke Beranda -->
+            <div class="container text-center">
+                <a
+                    class="btn btn-primary"
+                    href="../../index.html"
+                    style="margin-right: 10px"
+                    role="button"
+                >
+                    <img
+                        src="../assets/img/icon/home (1).png"
+                        style="height: 40px"
+                    />
+                </a>
+            </div>
+            <br />
+        </div>
+        <!-- Sumber -->
+        <div
+            class="btn btn-primary mt-3"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample3"
+            aria-controls="collapseWidthExample3"
+            style="font-weight: 300; margin-left: 30px; cursor: default"
+        >
+            Sumber
+        </div>
+        <div style="color: #534d4d; margin-left: 30px" class="mt-2">
+            1. https://id.wikipedia.org/wiki/Sistem_koloid
+            <br />
+            2.
+            https://www.quipper.com/id/blog/mapel/kimia/materi-koloid-kimia-kelas-11/#Pengertian_Koloid
+            <br />
+            <br />
+        </div>
+
+        <!-- JavaScript Bootstrap -->
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+        <!-- My JS -->
+        <script src="../assets/js/script.js"></script>
+    </body>
+</html>
